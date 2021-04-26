@@ -25,11 +25,11 @@
 }
 .section-header h2 {
     font-weight: bold;
-    font-size: 4.6rem;
+    font-size: 46px;
 }
 .section-header p {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 15px;
     margin-top: 10px;
 }
 .section-header::after {
@@ -48,7 +48,6 @@
 }
 .bg-gray.main-section {
     background-color: #f6f6f6;
-    padding-top: 40px;
 }
 .bg-logo.content-width {
     background-image: url(img/bg-section-top-course.png);
@@ -70,6 +69,7 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
+    background-color: #fff;
 }
 #header-logo a {
     transition-duration: .2s;
@@ -104,7 +104,7 @@ header {
     transition-duration: .2s;
 }
 .en-menu {
-    font-size: 1.3rem;
+    font-size: 13px;
     font-weight: bold;
 }
 .ja-menu {
@@ -131,14 +131,10 @@ header {
     height: 40px;
 }
 #header-btn a {
-    font-size: 1.2rem;
+    font-size: 12px;
 }
 #hamburger {
-    position: relative;
     display: none;
-    width: 30px;
-    height: 21px;
-    cursor: pointer;
 }
 #hamburger div {
     position: absolute;
@@ -169,7 +165,7 @@ header {
 }
 #course h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 40px;
     font-weight: bold;
     letter-spacing: 3px;
     padding-left: 145px;
@@ -178,7 +174,7 @@ header {
 /* POTEPAN CAMP コースについて */
 #detail p:first-child, #detail p:last-child {
     margin-top: 30px;
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 30px;
     text-align: center;
 }
@@ -186,7 +182,7 @@ header {
     display: block;
 }
 #detail p:nth-child(2), #detail p:nth-child(3), #detail p:nth-child(4) {
-    font-size: 2rem;
+    font-size: 20px;
     line-height: 30px;
     text-align: center;
     margin-top: 24px;
@@ -219,6 +215,11 @@ header {
     width: 100%;
     height: auto;
 }
+.point-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
 #detail-point {
     background-color: #fff;
     text-align: center;
@@ -227,7 +228,7 @@ header {
     border-radius: 20px;
 }
 #detail-point h3 {
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: bold;
     line-height: 36px;
 }
@@ -240,7 +241,7 @@ header {
     border-radius: 15px;
     padding: 4px;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: .1em;
 }
@@ -251,7 +252,7 @@ header {
     width: 100%;
 }
 .point p:last-child {
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 16px;
 }
@@ -265,6 +266,9 @@ header {
     background-size: 100%;
 }
 .course-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 60px;
     padding: 0 40px;
     text-align: center;
@@ -284,11 +288,11 @@ header {
     border-radius: 10px 10px 0px 0px;
 }
 .course-title span {
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: bold;
 }
 .course-title p {
-    font-size: 2rem;
+    font-size: 20px;
     margin-top: 3px;
     font-weight: bold;
 }
@@ -297,7 +301,7 @@ header {
     background-color: #fffdfa;
 }
 .course-price {
-    font-size: 2.8rem;
+    font-size: 28px;
     font-family: Lato-Black;
     font-weight: bold;
     margin: 10px 0px 20px;
@@ -307,11 +311,11 @@ header {
 }
 .course-price::after {
     content: "\7A0E\8FBC";
-    font-size: 1.2rem;
+    font-size: 12px;
     margin-left: 4px;
 }
 .course-content {
-    font-size: 1.6rem;
+    font-size: 16px;
     color: #22222299;
     line-height: 2em;
     text-align: left;
@@ -327,15 +331,15 @@ header {
     background-color: #fff8ea;
 }
 .course div:last-child p:first-child {
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: bold;
 }
 .course div:last-child p:first-child span {
-    font-size: 3rem;
+    font-size: 30px;
     font-weight: bold;
 }
 .course div:last-child p:nth-child(even), .course div:last-child p:nth-child(3) {
-    font-size: 1.4rem;
+    font-size: 14px;
 }
 .course div:last-child p:nth-child(even) span, .course div:last-child p:nth-child(3) span {
     color: #f79214;
@@ -343,7 +347,7 @@ header {
 }
 .course div:last-child a {
     color: #f79214;
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: bold;
 }
 .course div:last-child a::before {
@@ -360,16 +364,16 @@ header {
     border-radius: 20px;
 }
 .plan-title p {
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 4px;
     line-height: 26px;
 }
-.plan div:first-child h3 {
+.plan-title h3 {
     max-width: 500px;
     margin: 0 auto;
-    font-size: 3.6rem;
+    font-size: 36px;
     font-weight: bold;
     line-height: 1;
     text-align: center;
@@ -378,6 +382,9 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.plan-title h3 br {
+    display: none;
+}
 .plan-section {
     background-color: #fff;
     margin-top: 40px;
@@ -385,15 +392,15 @@ header {
     border-radius: 10px;
 }
 .plan h4 {
-    display: flex;
-    align-items: center;
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: bold;
     line-height: 26px;
 }
-.plan h4::before:not(#skip-text h4) {
+.plan h4:not(#skip-text h4)::before {
     content: '';
+    position: relative;
+    top: 3px;
     display: inline-block;
     background-image: url(img/icon-point.png);
     background-size: 100%;
@@ -402,7 +409,7 @@ header {
     margin-right: 8px;
 }
 .plan li {
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 26px;
     padding-left: 8px;
 }
@@ -420,7 +427,7 @@ header {
     width: 142px;
     font-weight: bold;
     margin-top: 30px;
-    font-size: 1.6rem;
+    font-size: 16px;
     padding: 4px 26px;
     border-radius: 15px;
     background-color: #fcfaf5;
@@ -458,7 +465,6 @@ header {
     height: 20px;
 }
 .plan dd {
-    font-size: 1.5rem;
     margin-top: 20px;
     padding-left: 16px;
     font-size: 16px;
@@ -484,12 +490,17 @@ header {
     padding: 13px 8px 18px;
 }
 .language-text h5 {
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 4px;
 }
 .language-text p {
-    font-size: 1.6rem;
+    font-size: 16px;
+}
+#skip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #skip #skip-img {
     width: 10.5%;
@@ -506,8 +517,11 @@ header {
     font-weight: bold;
     line-height: 26px;
 }
+#skip-text h4 br {
+    display: none;
+}
 #skip-text p {
-    font-size: 1.6rem;
+    font-size: 16px;
 }
 #skip-text span {
     color: #f79214;
@@ -515,9 +529,14 @@ header {
 
 /* 受講生の声 */
 #interview {
+    position: relative;
+    padding-top: 40px;
     padding-bottom: 120px;
 }
 #students {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
     margin-left: -20px;
     margin-right: -20px;
 }
@@ -553,7 +572,7 @@ header {
     transition-duration: .2s;
 }
 .student-text {
-    font-size: 1.4rem;
+    font-size: 14px;
     font-weight: bold;
     margin-top: 15px;
     line-height: 1.8;
@@ -603,7 +622,7 @@ footer {
     width: 100%;
 }
 #company-info p {
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: bold;
     color: #fff;
     line-height: 1.5;
@@ -634,7 +653,7 @@ footer {
 }
 #footer-menu li {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 15px;
 }
 #footer-menu :not(#footer-first-list) {
     margin-top: 30px;
@@ -651,25 +670,50 @@ footer {
     height: 70px;
 }
 #copy {
-    font-size: 1.2rem;
+    font-size: 12px;
     color: #fff;
     margin-top: 60px;
 }
 
 /* レスポンシブ */
 @media screen and (max-width: 1080px) {
+    main {
+        padding-top: 60px;
+    }
+    header {
+        position: fixed;
+        z-index: 10;
+    }
 	#header-menu {
         display: none;
     }
     #hamburger {
+        position: relative;
         display: block;
+        width: 30px;
+        height: 21px;
+        cursor: pointer;
+        z-index: 100;
     }
 }
 @media screen and (max-width: 767px) {
+    footer {
+        display: none;
+    }
+    main {
+        padding-top: 52px;
+    }
+    .main-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
     .content-width {
         max-width: none;
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .section-content {
+        margin-top: 50px;
     }
     #header-flex {
         align-items: flex-end;
@@ -693,12 +737,12 @@ footer {
         background-size: contain;
     }
     #course h1 {
-        font-size: 2.2rem;
+        font-size: 22px;
         padding-left: 0;
         text-align: center;
     }
     .section-header h2 {
-        font-size:2.6rem !important;
+        font-size:26px;
         line-height: 1.2;
         text-align: center;
     }
@@ -710,13 +754,150 @@ footer {
         display: inline;
     }
     #detail p:first-child, #detail p:last-child {
-        font-size: 1.5rem;
+        font-size: 15px;
         text-align: left;
     }
     #detail br {
         display: block;
     }
     #detail p:nth-child(2), #detail p:nth-child(3), #detail p:nth-child(4) {
-        font-size: 1.6rem;
+        font-size: 16px;
+    }
+    .mark {
+        width: 70px;
+        height: 70px;
+        margin-top: -70px;
+    }
+    .mark span {
+        width: 32px;
+    }
+    #detail-point h3 {
+        font-size: 20px;
+    }
+    .point {
+        margin-top: 32px;
+        width: 100%;
+    }
+    .point-flex {
+        display: inline-block;
+    }
+    .point-title {
+        font-size: 15px;
+    }
+    .point p:last-child {
+        font-size: 15px;
+    }
+    #detail-point {
+        margin-top: 80px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .course-detail {
+        display: block;
+        padding: 0;
+    }
+    .course {
+        width: 100%;
+    }
+    .course:first-child {
+        margin-bottom: 60px;
+    }
+    .plan {
+        padding: 20px;
+    }
+    .plan-title h3 {
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .plan-title h3 br {
+        display: block;
+    }
+    .plan-section {
+        margin-top: 20px;
+    }
+    .plan h4 {
+        margin-bottom: 10px;
+        display: block;
+        text-align: center;
+    }
+    .plan li {
+        font-size: 15px;
+        line-height: 22px;
+        padding-left: 1em;
+        text-indent: -1em;
+    }
+    .plan li:not(.plan li:first-child) {
+        margin-top: 10px;
+    }
+    .plan dd {
+        text-align: center;
+        padding-left: 0;
+        font-size: 14px;
+    }
+    .plan dd p {
+        line-height: 1.5;
+    }
+    .plan dd p:not(.plan dd p:first-child) {
+        margin-top: 10px;
+    }
+    dt {
+        margin: 0 auto;
+    }
+    .language {
+        width: 100%;
+    }
+    .language:nth-child(odd) {
+        margin-right: 0;
+    }
+    .language-text p {
+        font-size: 15px;
+    }
+    #skip, #skip-text h4 br {
+        display: block;
+    }
+    #skip #skip-img {
+        width: 65%;
+        max-width: 130px;
+        margin: 0px auto 20px;
+    }
+    .bg-logo.content-width {
+        background: none;
+        padding-top: 0;
+    }
+    #students {
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .student {
+        width: 100%;
+    }
+    .student:not(.student:first-child) {
+        display: none;
+    }
+    .student:hover img {
+        transform: scale(1,1);
+    }
+    .student:hover .student-text {
+        color: #000;
+    }
+    #interview {
+        padding-top: 55px;
+        padding-bottom: 60px;
+    }
+    #interview::before {
+        content: '';
+        position: absolute;
+        background-image: url(img/bg-section-top-course.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 40px;
+        left: 60%;
+        width: 130px;
+        height: 130px;
+    }
+    .language-text h5 {
+        font-size: 17px;
     }
 }
