@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.flex-align-start {
+.footer-flex {
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -621,6 +621,9 @@ footer {
 #footer-logo img {
     width: 100%;
 }
+#company-info {
+    order: 1;
+}
 #company-info p {
     font-size: 15px;
     font-weight: bold;
@@ -651,6 +654,9 @@ footer {
 #sns-logo a img {
     width: 100%;
 }
+#footer-menu {
+    order: 3;
+}
 #footer-menu li {
     color: #fff;
     font-size: 15px;
@@ -664,6 +670,7 @@ footer {
 }
 #footer-character {
     align-self: flex-end;
+    order: 3;
 }
 #footer-character img {
     width: auto;
@@ -697,9 +704,6 @@ footer {
     }
 }
 @media screen and (max-width: 767px) {
-    footer {
-        display: none;
-    }
     main {
         padding-top: 52px;
     }
@@ -899,5 +903,28 @@ footer {
     }
     .language-text h5 {
         font-size: 17px;
+    }
+    footer {
+        padding-top: 60px;
+    }
+    .footer-flex {
+        display: block;
+    }
+    #footer-menu {
+        margin-left: 20px;
+    }
+    #page-top-btn {
+        top: -85px ;
+        right: 20px;
+    }
+    #footer-character {
+        margin-top: 50px;
+        text-align: center;
+    }
+    #company-info {
+        margin-top: 30px;
+        padding-top: 30px;
+        border-top: 1px solid #fff;
+        text-align: center;
     }
 }
