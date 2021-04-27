@@ -434,7 +434,7 @@ header {
     display: flex;
     align-items: center;
 }
-.plan dt#content {
+.plan dt.content {
     margin-top: 20px;
 }
 .plan dt::before {
@@ -444,22 +444,22 @@ header {
     margin-right: 6px;
     background-size: 100%;
 }
-.plan dt#content::before {
+.plan dt.content::before {
     background-image: url(img/icon-pencil.png);
     width: 17px;
     height: 17px;
 }
-.plan dt#term::before {
+.plan dt.term::before {
     background-image: url(img/icon-calender.png);
     width: 16px;
     height: 18px;
 }
-.plan dt#condition::before {
+.plan dt.condition::before {
     background-image: url(img/icon-condition.png);
     width: 17px;
     height: 14px;
 }
-.plan dt#price::before {
+.plan dt.price::before {
     background-image: url(img/icon-coin.png);
     width: 20px;
     height: 20px;
